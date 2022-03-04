@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(180deg, rgba(161,51,51,1) 28%, #0f0f0f 28%);
+    color: #fff6d1;
+}
+
+
+@import "./partials/movies";
