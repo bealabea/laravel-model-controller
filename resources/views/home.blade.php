@@ -9,21 +9,10 @@
 </head>
 <body>
     <header class="header">
-    <img class="title" src="/img/title.png" alt="">
+    <img class="image" src="/img/title.png" alt="">
     <img class="image" src="/img/movies_.png" alt="">
     </header>
-    <div class="container">
-        @foreach($data as $movie)
-        <div class="card">
-            <div class="card-image">
-                <img src="{{$movie->url}}" alt="">
-            </div>
-            <h3 class="text">{{$movie->title}}</h3>
-            <h4 class="text">"{{$movie->original_title}}"</h4>
-            <p class="text">"{{$movie->date}}"</p>
-        </div>
-        @endforeach
-    </div>
+    @include('partials.movies');
     
 </body>
 </html>

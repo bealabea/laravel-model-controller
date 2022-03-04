@@ -7,7 +7,7 @@
 body {
   font-family: "Roboto", sans-serif;
   background: linear-gradient(180deg, #a13333 28%, #0f0f0f 28%);
-  color: #fff6d1;
+  color: #fff;
 }
 
 .header {
@@ -15,12 +15,8 @@ body {
   justify-content: space-between;
 }
 
-.header .title {
-  margin-left: 200px;
-  width: 700px;
-}
-
 .header .image {
+  margin: 0 100px 0 200px;
   width: 700px;
 }
 
@@ -42,18 +38,17 @@ body {
   text-transform: uppercase;
 }
 
-.container .card .card-image {
-  border-radius: 10px;
+.container .card img {
   margin: 20px 0 15px 0;
-  height: 350px;
   overflow: hidden;
-}
-
-.container .card .card-image img {
-  width: 100%;
+  border-radius: 10px;
+  width: 250px;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .container .card .text {
-  margin: 4px 0;
+  margin: 5px 0;
 }
 
