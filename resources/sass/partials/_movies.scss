@@ -8,7 +8,7 @@
 }
 
 .container {
-    width: 1300px;
+    width: 1400px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -27,9 +27,17 @@
             width: 250px;
             height: 350px;
             object-fit: cover;
+            transition: all 0.2s;
+            &:hover {
+                transform: scale(1.1);
+                transition: all 0.2s;
+            }
         }
         .text {
             margin: 5px 0;
+        }
+        .star {
+            color:rgb(241, 203, 78);
         }
     }
 }
